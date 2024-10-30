@@ -11,6 +11,8 @@ function Square(width) {
 }
 
 Square.prototype = Object.create(Shape.prototype) //relation sqr --> Square --> Shape --> Object
+
+
 Square.prototype.constructor = Square //reset constructor
 Square.prototype.draw = function () {
     console.log('Drawing');
