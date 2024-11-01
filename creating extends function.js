@@ -1,4 +1,4 @@
-//Creating Extends Function in Javascript
+//Creating Extends and Overritten Function in Javascript
 
 function extend (parent, chaild){
     chaild.prototype = Object.create(parent.prototype)
